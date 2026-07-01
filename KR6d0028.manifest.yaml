@@ -1,0 +1,379 @@
+canonical_identifier: bkk:krp/KR6d0028/v1
+canonical_location: https://kanripo.org/bkk/KR6d0028/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 法華經玄贊攝釋
+  identifiers:
+    alt_id:
+    - X34n0636
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X34/X34n0636.xml
+    old_id: X34n0636
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0028_000.yaml, hash: 'sha256:226fa86a8d75da3d1b67ceeb1a28275e5d2dddf7c0fc1320263da1fad968bb1b'}
+  - {seq: 1, filename: KR6d0028_001.yaml, hash: 'sha256:f9ddf47d8a1e35773d1fbb06de157ae94d679c9b520e64d7a3d0c7b880285d5e'}
+  - {seq: 2, filename: KR6d0028_002.yaml, hash: 'sha256:5032edceea982fffa5a97541ec968e2b6c9f02b4d65035ec2f1b72a6e3d14405'}
+  - {seq: 3, filename: KR6d0028_003.yaml, hash: 'sha256:8c8dabe506a95db1b22455e3f3e99eb46bcae8eb6792418b75e9d4507f955b37'}
+  - {seq: 4, filename: KR6d0028_004.yaml, hash: 'sha256:215b2c12cc8b87d2045a8f1097eff56d7f69e689cca2f84a5bae7f123776ebf4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0028_000.markers.yaml, hash: 'sha256:b628704752bb08011c46c04f748ca358e6c0b89e64dd55f3539b671d952eb7c2'}
+  - {seq: 1, role: markers, filename: assets/KR6d0028_001.markers.yaml, hash: 'sha256:7815d8f42dbd4a37afdf7cc4978236b7b273a670a88cb826ee194fd4e994e3e6'}
+  - {seq: 2, role: markers, filename: assets/KR6d0028_002.markers.yaml, hash: 'sha256:5d63b1594873234bcd601cf9b57de5c1599e3df95e65cabd08135483844a248a'}
+  - {seq: 3, role: markers, filename: assets/KR6d0028_003.markers.yaml, hash: 'sha256:a35492ae693857a8bc704786934c98af5c56c1a07288f60ed2578f7c8ee63786'}
+  - {seq: 4, role: markers, filename: assets/KR6d0028_004.markers.yaml, hash: 'sha256:f77b54b406a576c3390397eecfdfa646631f0a881ba607d787c9d6f63d826ed6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6d0028_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 目次
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0028_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 28181
+  label: 法華玄贊攝釋卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0028_X_001-mulu-1
+    span:
+    - body
+    - 7
+    - 7
+  label: 自敘
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0028_X_001-mulu-2
+    span:
+    - body
+    - 220
+    - 220
+  label: 序品第一
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6d0028_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 33847
+  label: 法華玄贊攝釋卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6d0028_X_002-mulu-1
+    span:
+    - body
+    - 19673
+    - 19673
+  label: 方便品第二
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6d0028_X_003-juan-start
+    span:
+    - body
+    - 0
+    - 40395
+  label: 法華玄贊攝釋卷第三
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6d0028_X_003-mulu-1
+    span:
+    - body
+    - 14069
+    - 14069
+  label: 譬喻品第三
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6d0028_X_003-mulu-2
+    span:
+    - body
+    - 31339
+    - 31339
+  label: 信解品第四
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6d0028_X_003-mulu-3
+    span:
+    - body
+    - 35741
+    - 35741
+  label: 藥草喻品第五
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6d0028_X_003-mulu-4
+    span:
+    - body
+    - 39481
+    - 39481
+  label: 授記品第六
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-juan-start
+    span:
+    - body
+    - 0
+    - 39985
+  label: 法華玄贊攝釋卷第四
+  type: juan
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-1
+    span:
+    - body
+    - 5
+    - 5
+  label: 化城喻品第七
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-2
+    span:
+    - body
+    - 12214
+    - 12214
+  label: 五百弟子品第八
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-3
+    span:
+    - body
+    - 14770
+    - 14770
+  label: 人記品第九
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-4
+    span:
+    - body
+    - 14854
+    - 14854
+  label: 法師品第十
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-5
+    span:
+    - body
+    - 15826
+    - 15826
+  label: 寶塔品第十一
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-6
+    span:
+    - body
+    - 17436
+    - 17436
+  label: 提婆達多品第十二
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-7
+    span:
+    - body
+    - 17799
+    - 17799
+  label: 持品第十三
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-8
+    span:
+    - body
+    - 18717
+    - 18717
+  label: 安樂行品第十四
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-9
+    span:
+    - body
+    - 24610
+    - 24610
+  label: 涌出品第十五
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-10
+    span:
+    - body
+    - 25510
+    - 25510
+  label: 壽量品第十六
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-11
+    span:
+    - body
+    - 28898
+    - 28898
+  label: 分別功德品第十七
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-12
+    span:
+    - body
+    - 30093
+    - 30093
+  label: 隨喜功德品第十八
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-13
+    span:
+    - body
+    - 30867
+    - 30867
+  label: 法師功德品第十九
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-14
+    span:
+    - body
+    - 33150
+    - 33150
+  label: 不輕品第二十
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-15
+    span:
+    - body
+    - 33340
+    - 33340
+  label: 神力品第二十一
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-16
+    span:
+    - body
+    - 33454
+    - 33454
+  label: 屬累品第二十二
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-17
+    span:
+    - body
+    - 33502
+    - 33502
+  label: 藥王品第二十三
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-18
+    span:
+    - body
+    - 34939
+    - 34939
+  label: 妙音品第二十四
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-19
+    span:
+    - body
+    - 35007
+    - 35007
+  label: 普門品第二十五
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-20
+    span:
+    - body
+    - 37394
+    - 37394
+  label: 陀羅尼品第二十六
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-21
+    span:
+    - body
+    - 38217
+    - 38217
+  label: 妙莊嚴王品第二十七
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6d0028_X_004-mulu-22
+    span:
+    - body
+    - 39269
+    - 39269
+  label: 勸發品第二十八
+  type: mulu
+  level: 1
+hash: sha256:8fa58b72df1f831e1b5ea4878648d499ff721355dd123b546aaed82f7f75a8a0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
